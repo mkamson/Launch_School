@@ -1,6 +1,6 @@
-#Hashes
+# Hashes
 
-family = {  uncles: ["bob", "joe", "steve"],
+family = {  uncles: ['bob', 'joe', "steve"],
             sisters: ["jane", "jill", "beth"],
             brothers: ["frank","rob","david"],
             aunts: ["mary","sally","susan"]
