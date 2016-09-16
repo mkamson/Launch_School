@@ -5,9 +5,7 @@ family = {  uncles: ['bob', 'joe', "steve"],
             brothers: ["frank","rob","david"],
             aunts: ["mary","sally","susan"]
           }
-          
-          
-          
+
 im_fam = family.select { |k, v| (k == :brothers) || (k == :sisters) }
 
 immediate_family = im_fam.values.flatten
@@ -15,9 +13,9 @@ puts "1."
 p immediate_family
 puts " "
 
-
 # the merge! method merges hash 1 with hash 2 and assigns the new hash to hash 1
 # the merge method does not assign the new hash to hash 1
+
 puts "2."
 h1 = { "a" => 100, "b" => 200 }
 h2 = { "b" => 254, "c" => 300 }
@@ -72,8 +70,7 @@ words.each do |word|
   else
     result[key] = [word]
   end
-  
-  end
+end
 
 result.each do |k, v|
   puts "------"
